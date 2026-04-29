@@ -21,9 +21,8 @@ body {
   font-family: 'Tahoma', 'MS Sans Serif', Arial, sans-serif;
   font-size: 14px;
   background: #808080;
-  overflow: hidden;
-  height: 100vh;
-  width: 100vw;
+  overflow-y: auto;
+  min-height: 100vh;
 }
 
 /* ─── 3-D Button Look ─── */
