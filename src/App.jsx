@@ -2,7 +2,7 @@ import React from 'react';
 import { exercises } from './data/exercises';
 
 // Icons for each exercise
-const ICONS = ['📐', '♟', '⏱', '🌾', '⚙'];
+const ICONS = ['', '', '', '', ''];
 
 export default function App() {
   return (
@@ -26,7 +26,7 @@ export default function App() {
         zIndex: 10,
         boxShadow: '0 2px 6px rgba(0,0,0,0.4)',
       }}>
-        <span style={{ fontSize: 18 }}>🏔</span>
+        <span style={{ fontSize: 18 }}></span>
         <span style={{ fontWeight: 'bold', fontSize: 14, letterSpacing: '0.5px' }}>
           Hill Climbing Algorithms — Questionnaire
         </span>

@@ -70,7 +70,7 @@ const ex5Content = (
     <b>Goal:</b> C(n) = 100 &nbsp;|&nbsp; <b>Start:</b> n = 1<br />
     <b>Operators:</b> n + 1 (add algorithm), n − 1 (remove algorithm)<br />
     <b>Rule:</b> Only move to a <b>higher</b> value that is closer to the goal of 100.<br /><br />
-    Apply <b>Simple Hill Climbing</b> starting from <b>n = 1</b>.
+    Apply <b>Simple Hill Climbing</b>.
   </>
 );
 
