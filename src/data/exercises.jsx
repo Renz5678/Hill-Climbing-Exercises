@@ -11,7 +11,7 @@ const ex1Content = (
     Apply all three hill climbing variants — <b>Simple, Steepest Ascent,</b> and{' '}
     <b>Stochastic</b> — starting from <b>x = 0</b>.<br />
     For Stochastic HC, the random neighbor sequence is:{' '}
-    <b>x = 1, 2, 1, 3, 4, 5, 4</b>.
+    <b>x = 1, 0, 1, 2, 3, 2, 3</b>.
   </>
 );
 
