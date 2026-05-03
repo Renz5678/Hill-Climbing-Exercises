@@ -1,5 +1,6 @@
 import React from 'react';
 import { exercises } from './data/exercises';
+import ChessSimulator from './components/ChessSimulator';
 
 // Icons for each exercise
 const ICONS = ['', '', '', '', ''];
@@ -65,9 +66,27 @@ export default function App() {
             </div>
 
             {/* question body */}
-            <div style={{ padding: '28px 32px', fontSize: 16, lineHeight: 2, color: '#000' }}>
-              {ex.content}
-            </div>
+            {ex.id === 2 ? (
+              /* Exercise 2: show problem + chess simulator side by side */
+              <div style={{
+                display: 'flex',
+                gap: 24,
+                padding: '20px 24px',
+                alignItems: 'flex-start',
+                flexWrap: 'wrap',
+              }}>
+                <div style={{ flex: '1 1 320px', fontSize: 16, lineHeight: 2, color: '#000' }}>
+                  {ex.content}
+                </div>
+                <div style={{ flex: '1 1 380px', minWidth: 0 }}>
+                  <ChessSimulator />
+                </div>
+              </div>
+            ) : (
+              <div style={{ padding: '28px 32px', fontSize: 16, lineHeight: 2, color: '#000' }}>
+                {ex.content}
+              </div>
+            )}
 
             {/* follow-up note if any */}
             {ex.followUp && (
