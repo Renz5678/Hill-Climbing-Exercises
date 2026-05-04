@@ -120,6 +120,11 @@ export const exercises = [
     subtitle: 'Optimal Irrigation Schedule',
     algorithmLabel: 'Simple Hill Climbing',
     content: ex4Content,
+    followUp: (
+      <>
+        <b>Follow-Up:</b> 'If the goal is not reached, at which point did the algorithm terminate? What was the value of Y(i) at that point?
+      </>
+    ),
   },
   {
     id: 5,
