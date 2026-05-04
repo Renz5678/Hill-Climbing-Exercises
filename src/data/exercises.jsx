@@ -114,28 +114,4 @@ export const exercises = [
       </>
     ),
   },
-  {
-    id: 4,
-    title: 'Exercise 4',
-    subtitle: 'Optimal Irrigation Schedule',
-    algorithmLabel: 'Simple Hill Climbing',
-    content: ex4Content,
-    followUp: (
-      <>
-        <b>Follow-Up:</b> 'If the goal is not reached, at which point did the algorithm terminate? What was the value of Y(i) at that point?
-      </>
-    ),
-  },
-  {
-    id: 5,
-    title: 'Exercise 5',
-    subtitle: 'Minimizing Cumulative Algorithm Cost',
-    algorithmLabel: 'Simple Hill Climbing',
-    content: ex5Content,
-    followUp: (
-      <>
-        <b>Follow-Up:</b> Since no pipeline length gives exactly C(n) = 100, the algorithm cannot reach the goal precisely. At what value of n does it stop, and what does this reveal about using exact target values in discrete search spaces?
-      </>
-    ),
-  },
 ];
