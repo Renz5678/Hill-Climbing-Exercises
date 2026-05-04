@@ -96,6 +96,11 @@ export const exercises = [
     subtitle: 'Chess Position Evaluation',
     algorithmLabel: 'Simple Hill Climbing',
     content: ex2Content,
+    followUp: (
+      <>
+        <b>Follow-Up:</b> Which path of moves goes to score 15?
+      </>
+    ),
   },
   {
     id: 3,
