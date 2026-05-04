@@ -80,7 +80,7 @@ const ex5Content = (
 export const exercises = [
   {
     id: 1,
-    title: 'Exercise 1',
+    title: 'Exercise 1 - 3',
     subtitle: 'Simple Function Optimization',
     algorithmLabel: 'Hill Climbing — 3 Variants',
     content: ex1Content,
@@ -92,7 +92,7 @@ export const exercises = [
   },
   {
     id: 2,
-    title: 'Exercise 2',
+    title: 'Exercise 4',
     subtitle: 'Chess Position Evaluation',
     algorithmLabel: 'Simple Hill Climbing',
     content: ex2Content,
@@ -104,7 +104,7 @@ export const exercises = [
   },
   {
     id: 3,
-    title: 'Exercise 3',
+    title: 'Exercise 5',
     subtitle: 'Minimization Under Time Constraint',
     algorithmLabel: 'Simple Hill Climbing (minimisation)',
     content: ex3Content,
